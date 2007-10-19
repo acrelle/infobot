@@ -1,0 +1,14 @@
+See INSTALL file on how to install the bot.
+
+Quick usage instructions:
+-------------------------
+
+DCC CHAT:
+.+chan #chan
+.chanset #chan +autojoin
+.chanset +autojoin
+.chanunset -autojoin
+.chanset -autojoin
+
+for list of configuration options, run:
+	perl scripts/findparam.pl
